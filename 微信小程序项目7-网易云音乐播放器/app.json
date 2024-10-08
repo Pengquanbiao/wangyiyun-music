@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/audio2/audio2",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "网易云音乐",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationStyle": "default"
+  },
+  "requiredBackgroundModes": ["audio"],
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

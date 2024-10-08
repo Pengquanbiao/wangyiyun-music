@@ -1,0 +1,71 @@
+<scroll-view class="content-info" scroll-y>
+  <swiper autoplay indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff"  class="content-info-slide">
+    <swiper-item>
+      <image src="/pages/audio2/images/banner.jpg" mode=""/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/pages/audio2/images/banner.jpg" mode=""/>
+    </swiper-item>
+  </swiper>
+  <!-- 功能按钮 -->
+  <view class="content-info-portal">
+    <view>
+      <image src="/pages/audio2/images/04.png" mode=""/>
+      <text>私人FM</text>
+    </view>
+    <view>
+      <image src="/pages/audio2/images/05.png" mode=""/>
+      <text>每日歌曲推荐</text>
+    </view>
+    <view>
+      <image src="/pages/audio2/images/06.png" mode=""/>
+      <text>云音乐新歌榜</text>
+    </view>
+  </view>
+  <!-- 推荐音乐 -->
+  <view class="content-info-list">
+    <view class="list-title">推荐歌曲</view>
+    <view class="list-inner">
+      <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view>
+      <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view> <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view> <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view> <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view> <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view>
+      <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view> <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view> <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view>
+      <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view> <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view> <view class="list-item">
+        <image src="/pages/audio2/images/cover.jpg" mode=""/>
+        <view>山水之间</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

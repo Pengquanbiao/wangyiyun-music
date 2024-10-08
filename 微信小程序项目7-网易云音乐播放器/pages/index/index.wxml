@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<!-- header -->
+<include src="./header"></include>
+<!-- content -->
+<scroll-view scroll-with-animation scroll-top="400" scroll-y type="list" class="scrollarea" bindscroll="scroll">
+  <view class="container">
+    Weixin
+  </view>
+  <view id="list1" class="list">
+    <slider
+      bindchanging="sliderChanging"
+       block-size="20"
+      block-color="pink"
+      activeColor="red"
+      value="10" step="1" />
+  </view>
+</scroll-view>
+
+<!-- footer -->
+<view>footer结构部分</view>
